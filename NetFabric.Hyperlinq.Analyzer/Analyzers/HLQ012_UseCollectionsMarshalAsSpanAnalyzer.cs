@@ -22,7 +22,7 @@ namespace NetFabric.Hyperlinq.Analyzer
         static readonly DiagnosticDescriptor Rule =
             new(DiagnosticId, Title, MessageFormat, Category, DiagnosticSeverity.Warning,
                 isEnabledByDefault: true, description: Description,
-                helpLinkUri: "https://github.com/NetFabric/NetFabric.Hyperlinq.Analyzer/tree/master/docs/reference/HLQ012_UseCollectionsMarshalAsSpanAnalyzer.md");
+                helpLinkUri: "https://github.com/NetFabric/NetFabric.Hyperlinq.Analyzer/tree/master/docs/reference/HLQ012_UseCollectionsMarshalAsSpan.md");
 
         public override ImmutableArray<DiagnosticDescriptor> SupportedDiagnostics =>
             ImmutableArray.Create(Rule);
